@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    font-family: fantasy;
+}
+#container {
+  
+  display: grid;
+  justify-content: center;
+  
+   
+}
+#bg{
+    background-color: aquamarine;
+    margin: 100px;
+    height: 40vh;
+    
+    text-align: center;
+    padding: 100px;
+    border-radius: 20px;
+    box-sizing:content-box;
+    box-shadow: 1px 1px 15px black;
+    
+}
+
+#num{
+    margin: 50px;
+    
+}

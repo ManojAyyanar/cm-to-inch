@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cm to inch</title>
+    <link rel="stylesheet" href="cmin.css">
+</head>
+<body>
+    <div id="container">
+        <div id="bg">
+           <h3>Cm to inches</h3>
+           <input type="text" id="num" placeholder="cm">
+           <button  type="submit" id="btn" onclick="calcul()">Convert inches</button>
+           <div id="result">
+
+           </div>
+        </div>
+        
+    </div>
+    <script >
+        function calcul(){
+            let cm= Number(document.getElementById("num").value)
+            let formula=cm/2.54
+            document.getElementById("result").innerHTML=
+            formula.toFixed(3)+"   inches"
+        }
+    </script>
+</body>
+</html>
